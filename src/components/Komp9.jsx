@@ -28,7 +28,7 @@ const Komp9 = () => {
              <div className='prekes-blokas' key={preke.id}>
             <h3>{preke.pavadinimas}</h3>
             <p>Prekė kainuoja: {preke.kaina} €</p>
-            <p>Jos turime: {preke.kiekis} vnt.</p>
+            <p>Ju turime: {preke.kiekis} vnt.</p>
           </div>
         ))}
       </div>
